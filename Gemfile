@@ -39,6 +39,10 @@ end
 
 gem 'devise'
 
+gem 'carrierwave'
+
+gem 'hirb'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
