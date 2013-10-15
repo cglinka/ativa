@@ -14,5 +14,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+<<<<<<< HEAD
 
+=======
+>>>>>>> b31db2da5806bfd5bc54a866e2c63dc91cfb90c4
 vendor/bundle

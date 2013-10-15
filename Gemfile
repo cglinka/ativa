@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Use HAML
 gem 'haml-rails'
 gem 'haml'
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -36,8 +37,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+<<<<<<< HEAD
 gem 'hirb'
 
+=======
+>>>>>>> b31db2da5806bfd5bc54a866e2c63dc91cfb90c4
 gem 'devise'
 
 # Use ActiveModel has_secure_password

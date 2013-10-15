@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20131014150850) do
+=======
+ActiveRecord::Schema.define(version: 20131013212548) do
+>>>>>>> b31db2da5806bfd5bc54a866e2c63dc91cfb90c4
 
   create_table "phases", force: true do |t|
     t.string   "name"
