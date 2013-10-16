@@ -18,3 +18,5 @@ vendor/bundle
 
 # Ignore file uploads
 public/uploads
+
+config/application.yml
