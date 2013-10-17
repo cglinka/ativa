@@ -21,4 +21,14 @@ class Notifier < ActionMailer::Base
 
     mail( to: "#{user.name} <#{user.email}>", subject: "unsubscribed to #{project.name.capitalize} | Ativa")
   end
+
+  def subscription_update(users, project)
+    @users = users
+    @project = project
+    @greeting = "update!"
+
+    @users.each do |user|
+      mail( to: "#{user.name} <#{user.email}>", subject: "update to #{project.name.capitalize} | Ativa")
+    end
+  end
 end
