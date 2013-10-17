@@ -1,1 +1,6 @@
 alert("project created!!! omg semicolon");
+
+(function () {
+  var projectHtml = "<%= j render('show', :project => @project) %>";
+  $('.projects').prepend(projectHtml);
+})();
